@@ -9,7 +9,7 @@ const mockedAxiosResult = {
   data: faker.random.objectElement(),
   status: faker.datatype.number(),
 }
-mockedAxios.post.mockRejectedValue(mockedAxiosResult)
+mockedAxios.post.mockResolvedValue(mockedAxiosResult)
 
 const makeSut = (): AxiosHttpClient => {
   return new AxiosHttpClient()
