@@ -1,5 +1,6 @@
-import { Login } from '@/presentation/pages'
+import { Router } from '@/presentation/components'
 import React from 'react'
 import ReactDOM from 'react-dom'
+import '../presentation/styles/global-styles.scss'
 
-ReactDOM.render(<Login />, document.getElementById('main'))
+ReactDOM.render(<Router />, document.getElementById('main'))
