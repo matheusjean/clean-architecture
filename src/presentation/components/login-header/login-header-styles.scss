@@ -6,12 +6,15 @@
   border-top: 40px solid $primaryDark;
   background-color: $primary;
   align-items: center;
+  height: 150px;
 
   img {
-    margin-top: 40px;
+    height: 50px;
+    margin-top: 15px;
   }
   h1 {
     color: $white;
     margin: 16px 0 40px;
+    font-size: 1rem;
   }
 }
