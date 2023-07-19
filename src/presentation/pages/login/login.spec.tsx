@@ -76,7 +76,7 @@ describe('Login Component', () => {
     })
     const emailStatus = sut.getByTestId('email-status')
     expect(emailStatus.title).toBe('Tudo certo')
-    expect(emailStatus.textContent).toBe('✅')
+    expect(emailStatus.textContent).toBe('🟢')
   });
 
   test('Should show valid password state if Validation succeeds', () => {
@@ -90,6 +90,6 @@ describe('Login Component', () => {
     })
     const passwordStatus = sut.getByTestId('password-status')
     expect(passwordStatus.title).toBe('Tudo certo')
-    expect(passwordStatus.textContent).toBe('✅')
+    expect(passwordStatus.textContent).toBe('🟢')
   });
 })
